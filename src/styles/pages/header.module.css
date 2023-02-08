@@ -1,0 +1,94 @@
+.cartButton {
+    border-radius: 6px;
+    background-color: #202024;
+    border: 0;
+    padding: 0.5rem;
+    color: #8D8D99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: border 0.2s;
+    cursor: pointer;
+}
+
+.counter {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #00875F;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: -35px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: bold;
+    font-size: 0.75rem;
+    margin-left: 35px;
+}
+
+.cartButton:hover {
+    border: 1px solid #fff;
+}
+
+.toggleMenu {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: -550px;
+    width:500px;
+    height: 100%;
+    background-color: #202024;
+    padding: 20px;
+    transition: left 0.5s;
+    box-shadow: -4px 0px 30px rgba(0, 0, 0, 0.8);
+}
+
+.h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 160%;
+
+    margin: 20px;
+}
+
+.div {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin-bottom:30px;
+}
+
+.divImagem {
+    background: linear-gradient(180deg, #1ea483 0%, #7465d4 100%);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.name {
+    color: #C4C4CC;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.button{
+    color: #00875F;
+    background-color: transparent;
+    border: 0;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.buttonFinish {
+    margin-top: 30px;
+    background: #00875F;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    color:#fff;
+    font-size: 1.6rem;
+}

@@ -6,6 +6,7 @@ import { GetStaticProps } from 'next'
 import Stripe from 'stripe'
 import Link from 'next/link'
 import Head from 'next/head'
+import Image from 'next/image'
 
 interface HomeProps {
   products: {
@@ -38,7 +39,7 @@ export default function Home({ products }: HomeProps) {
               prefetch={false}
             >
               <Product className="keen-slider__slide">
-                <img src={product.imageUrl} width={520} height={480} alt="" />
+                <Image src={product.imageUrl} width={520} height={480} alt="" />
                 <footer>
                   <strong>{product.name}</strong>
                   <span>{product.price}</span>
