@@ -91,4 +91,10 @@
     width: 100%;
     color:#fff;
     font-size: 1.6rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.buttonFinish:hover{
+    background-color: #00b37e;
 }
